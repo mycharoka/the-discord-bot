@@ -3,6 +3,6 @@ module.exports = {
     description: "PIINGG!",
     execute(msg, args) {
         msg.reply("pong");
-        msg.channel.send("PONG");
+        msg.channel.send("pong");
     },
 };
